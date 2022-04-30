@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "stimulus-datatables": "^1.0.6"
+  }
+}

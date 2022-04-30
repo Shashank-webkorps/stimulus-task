@@ -1,0 +1,22 @@
+<div id="<%= dom_id school_detail %>">
+  <p class="my-5">
+    <strong class="block font-medium mb-1">Teacher:</strong>
+    <%= school_detail.teacher %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">School:</strong>
+    <%= school_detail.school %>
+  </p>
+
+  <p class="my-5">
+    <strong class="block font-medium mb-1">School year:</strong>
+    <%= school_detail.school_year %>
+  </p>
+
+  <% if action_name != "show" %>
+    <%= link_to "Show this school detail", school_detail, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+    <%= link_to 'Edit this school detail', edit_school_detail_path(school_detail), class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium" %>
+    <hr class="mt-6">
+  <% end %>
+</div>
