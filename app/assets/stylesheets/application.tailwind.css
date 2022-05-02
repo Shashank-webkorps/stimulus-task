@@ -11,3 +11,13 @@
 }
 
 */
+@layer components {
+  .dataTables_wrapper {
+    .dataTables_filter {
+      @apply mb-10
+    }
+    .dataTables_length select {
+      @apply w-60
+    }
+  }
+}
