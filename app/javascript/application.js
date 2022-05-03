@@ -4,3 +4,10 @@ import "controllers"
 // import jquery from '/jquery'
 // window.jQuery = jquery
 // window.$ = jquery
+
+import jquery from "jquery"
+window.jQuery = jquery
+window.$ = jquery
+
+import DataTable from "datatables.net-dt"
+window.DataTable = DataTable();
