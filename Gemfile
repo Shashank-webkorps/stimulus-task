@@ -73,4 +73,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-gem 'ajax-datatables-rails'
+gem 'slim-rails'
+# gem 'hotwire-rails'
